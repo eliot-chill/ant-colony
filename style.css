@@ -1,0 +1,29 @@
+html {
+    background-color: #747474;
+    font-family: 'Francois One', sans-serif;
+
+}
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    position:fixed;
+    top:0;
+    font-size: 32px;
+    text-align: center;
+    color: gainsboro;
+}
